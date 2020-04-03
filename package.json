@@ -1,7 +1,7 @@
 {
   "author": "Girma Nigusse <xgirma@gmail.com>",
   "bugs": {
-    "url": "https://github.com/e2e-boilerplate/cypress-es-modules-cucumber-chai-expect/issues"
+    "url": "https://github.com/e2e-boilerplate/cypress-es-modules-cucumber-jest-expect/issues"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
@@ -10,9 +10,10 @@
     "cucumber": "6.0.5",
     "cypress": "4.3.0",
     "cypress-cucumber-preprocessor": "2.2.0",
+    "cypress-jest-adapter": "0.1.1",
     "rimraf": "3.0.2"
   },
-  "description": "Cypress end-to-end test automation boilerplate. Using ES Modules, Cucumber, Chai and Expect.",
+  "description": "Cypress end-to-end test automation boilerplate. Using ES Modules, Cucumber, Jest and Expect.",
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.1.0",
@@ -25,7 +26,7 @@
     "prettier": "2.0.2",
     "pretty-quick": "2.0.1"
   },
-  "homepage": "https://github.com/e2e-boilerplate/cypress-es-modules-cucumber-chai-expect#readme",
+  "homepage": "https://github.com/e2e-boilerplate/cypress-es-modules-cucumber-jest-expect#readme",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -33,14 +34,14 @@
   },
   "keywords": [
     "boilerplate",
-    "chai",
     "cucumber",
     "cypress",
     "e2e",
     "e2e tests",
     "example",
     "expect",
-    "integration test"
+    "integration test",
+    "jest"
   ],
   "license": "MIT",
   "lint-staged": {
@@ -48,10 +49,10 @@
       "prettier --write"
     ]
   },
-  "name": "cypress-es-modules-cucumber-chai-expect",
+  "name": "cypress-es-modules-cucumber-jest-expect",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplate/cypress-es-modules-cucumber-chai-expect.git"
+    "url": "git+https://github.com/e2e-boilerplate/cypress-es-modules-cucumber-jest-expect.git"
   },
   "scripts": {
     "clean:screenshots": "npx cypress/screenshots/*",

@@ -5,14 +5,14 @@ Before(() => {
 });
 
 Given("I am on the sandbox page", async () => {
-  cy.title((title) => {
-    expect(title).to.eq("Sandbox");
+  cy.title().then((title) => {
+    expect(title).toEqual("Sandbox");
   });
 });
 
 Then("The page header should be {string}", async (expected) => {
   cy.get("h1").then(($header) => {
     const text = $header.text();
-    expect(text).to.eq(expected);
+    expect(text).toEqual("Sandbox");
   });
 });

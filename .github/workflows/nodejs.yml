@@ -1,4 +1,4 @@
-name: cypress-es-modules-cucumber-chai-expect
+name: cypress-es-modules-cucumber-jest-expect
 'on':
   push: null
   schedule:
