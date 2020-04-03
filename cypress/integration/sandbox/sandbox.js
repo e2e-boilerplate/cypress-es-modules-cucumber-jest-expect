@@ -13,6 +13,6 @@ Given("I am on the sandbox page", async () => {
 Then("The page header should be {string}", async (expected) => {
   cy.get("h1").then(($header) => {
     const text = $header.text();
-    expect(text).toEqual("Sandbox");
+    expect(text).toEqual(expected);
   });
 });
