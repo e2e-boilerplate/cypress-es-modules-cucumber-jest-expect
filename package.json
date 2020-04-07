@@ -9,7 +9,7 @@
   "dependencies": {
     "cucumber": "6.0.5",
     "cypress": "4.3.0",
-    "cypress-cucumber-preprocessor": "2.2.0",
+    "cypress-cucumber-preprocessor": "2.2.1",
     "cypress-jest-adapter": "0.1.1",
     "rimraf": "3.0.2"
   },
