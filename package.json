@@ -34,16 +34,17 @@
     }
   },
   "keywords": [
-    "boilerplate",
     "cucumber",
     "cypress",
+    "es modules",
+    "expect",
+    "jest",
     "e2e",
     "e2e tests",
-    "es modules",
-    "example",
-    "expect",
+    "boilerplate",
     "integration test",
-    "jest"
+    "test automation",
+    "javascript"
   ],
   "license": "MIT",
   "lint-staged": {
